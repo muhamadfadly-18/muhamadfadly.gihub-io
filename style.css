@@ -1,0 +1,145 @@
+body {
+    background-color:black;
+    background: url(img.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+.logo {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f8f8f7;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:orange;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.logo-text {
+    font-style: italic;
+}
+
+
+.active {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+}
+
+img {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 300px;
+    margin: auto;
+}
+
+.content1 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+}
+
+.text1 {
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#tag {
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+
+mark{
+  background: #121313;
+  color: rgb(237, 236, 241);
+  padding: 5px 5px;
+}
+
+h1 {
+    color: #e7e6e8;
+}
+
+.mobile {
+    color: #221268;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: black;
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: orange;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+    
+  }
+  
+footer{
+  text-align: center;
+  background-color: orange;
+  color: black;
+}
+h1{
+  color: black;
+  padding: 10;
+}
+.gambar{
+  text-align: center;
+  
+  background-position: center;
+  transition: 0.3s;
+    max-width: 500px;
+    height: 300px;
+    min-height: 350px;
+    padding: 20px;
+    margin:auto ;
+   text-align: center;
+  
+}
+.image{
+  background-color: white;
+  justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    padding: 0 12%;
+  
+}
